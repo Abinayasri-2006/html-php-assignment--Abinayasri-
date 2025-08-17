@@ -1,0 +1,12 @@
+<?php
+$fruits = array("Apple", "Banana", "Cherry", "Mango");
+
+echo "Original array:\n";
+print_r($fruits);
+
+// Remove the first element
+array_shift($fruits);
+
+echo "Array after removing first element:\n";
+print_r($fruits);
+?>
